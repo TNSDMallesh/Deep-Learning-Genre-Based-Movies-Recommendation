@@ -1,0 +1,16 @@
+# Proper language detection for GitHub stats
+*.py linguist-language=Python
+*.ipynb linguist-language=Jupyter Notebook
+*.md linguist-language=Markdown
+*.csv text
+
+# Treat notebooks as notebooks, not raw JSON
+*.ipynb diff=jupyternotebook
+
+# Mark model weights and binary files
+*.h5 binary
+*.pkl binary
+*.joblib binary
+
+# Normalize line endings
+* text=auto eol=lf
