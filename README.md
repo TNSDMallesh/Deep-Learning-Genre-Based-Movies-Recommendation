@@ -123,6 +123,34 @@ This project successfully uses **Convolutional Neural Networks** to classify and
 
 ---
 
+echo "## 🚀 Future Enhancements
+
+This project serves as a strong foundation for deep learning-based content recommendation. With additional time, resources, and data, the following enhancements are planned:
+
+- **🎞️ Larger Dataset Integration**  
+  Incorporate thousands of movie posters across more diverse genres (e.g., Romance, Thriller, Documentary) to improve model generalization and reduce overfitting.
+
+- **🌐 Live Web Application**  
+  Build a fully functional, cloud-hosted web interface using **Streamlit** or **Flask** where users can:
+  - Select a genre
+  - Specify how many recommendations they want
+  - View poster previews with genre predictions in real-time
+
+- **🧠 Model Improvements**  
+  - Fine-tune with pre-trained models like **ResNet50 or EfficientNet** for better feature extraction.  
+  - Add **ensemble learning** to improve prediction confidence.
+
+- **📊 Explainability & Insights**  
+  - Add Grad-CAM visualizations to highlight what parts of a poster influenced genre classification.  
+  - Visual dashboard showing genre distribution and model confidence scores.
+
+- **📱 Mobile Compatibility**  
+  Optimize the system for use on mobile devices or as a lightweight PWA (Progressive Web App).
+
+- **📂 Content-Based Recommendations**  
+  Extend beyond genre classification by integrating metadata (e.g., IMDb ratings, cast, plot) for smarter hybrid recommendations.
+" >> README.md
+
 ## 🧑‍💻 Author
 
 **TAnna Naga Sri Durga Mallesh**  
