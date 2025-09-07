@@ -86,7 +86,7 @@ The dataset is manually organized and loaded using `ImageDataGenerator` with Ker
 | Metric             | Value         |
 |--------------------|---------------|
 | Training Accuracy  | ~98.75%       |
-| Validation Accuracy| 100.00% (⚠️ likely overfitting) |
+| Validation Accuracy| 100.00%       |
 
 > 🧪 The model achieves high training and validation accuracy, though the gap suggests overfitting due to limited data.
 
